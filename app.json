@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Rockstar Social Club",
-    "slug": "social",
+    "name": "Social Club",
+    "slug": "socialclub",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
-    ],  
-    "version": "2.0.0",
+    ],
+    "version": "3.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/ic_launcher-web.png",
     "splash": {
@@ -25,6 +25,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.rssocialclub",
+      "versionCode": 3
+    },
+    "description": "Community based app for Rockstar Social Club.",
+    "githubUrl": "https://github.com/nayiemwillems/RockstarSocialClub"
   }
 }
